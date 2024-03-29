@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Grid</title>
+        <style>
+            .container{
+                display: grid;
+                grid-template-rows: 40% 20% 20% 10%;
+                grid-template-columns: 15% 25% 25% 25%;
+                height: 50vh;
+                width: 50vh;
+                gap: 5px;
+                background-color: black
+            }
+            .child1{
+                background-color: red;
+                grid-column: span 2;
+
+            }
+            .child2{
+                background-color: white;
+                grid-column: span 2;
+            }
+            .child3{
+                background-color: white;
+                grid-column: span 2;
+                
+            }
+            .child4{
+                background-color: white;
+                grid-column: span 2;          
+            }
+            .child5{
+                background-color: yellow;
+                grid-row: span 2;
+                
+            }
+            .child6{
+                background-color: white;
+                grid-row: span 2;
+                
+            }
+            .child7{
+                background-color: blue;
+                
+            }
+            .child8{
+                background-color: white;
+                grid-row: span 2;
+                
+            }
+            .child9{
+                background-color: white;
+                
+            }
+
+        </style>
+
+    </head>
+    <body>
+        <div class="container">
+            <div class="child1"></div>
+            <div class="child2"></div>
+            <div class="child3"></div>
+            <div class="child4"></div>
+            <div class="child5"></div>
+            <div class="child6"></div>
+            <div class="child7"></div>
+            <div class="child8"></div>
+            <div class="child9"></div>
+        </div>
+    </body>
+</html>
